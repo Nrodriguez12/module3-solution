@@ -1,0 +1,43 @@
+
+.nav-link{
+	padding: 0px;
+}
+.row{
+	margin-top: 50px;
+}
+.navber{
+	background-color: #aba8a5;
+}
+.navber-brand{
+	color: black;
+	font-weight: bold;
+	font-size: 25px;
+	margin-top: 5px;
+	text-decoration: none;
+}
+.text-center{
+	margin-bottom: 25px;
+	margin-top: 15px;
+}
+.row1{
+	background-color: #aba8a5;
+}
+P{
+	padding: 20px;
+}
+ul li{
+	list-style: none;
+	text-align: center;
+	border: 2px solid black;
+	width: 100%;
+}
+@media (min-width: 992px){
+	.navber-toggler{
+		display: none;
+	}
+}
+@media (min-width: 768px) and (max-width: 991px){
+	.navber-toggler{
+		display: none;
+	}
+}
